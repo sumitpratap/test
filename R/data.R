@@ -1,0 +1,21 @@
+#' This raw data has been included for test 
+#' purpose
+#' Two fields are present in data
+#' First csv file read into R object
+#' Then save(mydata, file="data/mydata.RData") can be used to 
+#' save data to ./data folder
+#' Alternatevely devtools::use_data(objname) cab be used
+#' Save .R file using @TAG to create manual in ./man folder
+#' 
+#' @docType data
+#' @usage data(csv)
+#'
+#' @format A data frame with columns:
+#' \describe{
+#' 	\item{Standing}{ranking in numeric format}
+#' 	\item{Team}{Country Name}
+#' }
+#'
+#' @examples
+#' data(csv)
+"csv"
